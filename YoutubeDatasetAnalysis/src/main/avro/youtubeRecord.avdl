@@ -1,0 +1,14 @@
+@namespace("com.shripad.fourThousandHoles.model")
+protocol YoutubeDataAnalysisProtocol {
+
+    /**
+     * A structure representing the youtube data
+     */
+    record YoutubeData {
+
+        /**
+         * The fully formatted representation of the person's name.
+         */
+        union {null, string} fullName = null;
+        }
+}
