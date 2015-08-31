@@ -5,10 +5,15 @@ protocol YoutubeDataAnalysisProtocol {
      * A structure representing the youtube data
      */
     record YoutubeData {
-
-        /**
-         * The fully formatted representation of the person's name.
-         */
-        union {null, string} fullName = null;
+        string videoId;
+        string uploader;
+        union {null, int} @deprecated("true") interval = null;
+        union {null, string} category = null;
+        union {null, int} videoLength = null;
+        union {null, int} views = null;
+        union {null, float} rating = null;
+        union {null, int} numberOfRatings = null;
+        union {null, int} numberOfComments = null;
+        array<string> relatedVideoIds = [];
         }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -8,8 +8,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/avro" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target/archive-tmp" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target/dependency-jars" />
       <excludeFolder url="file://$MODULE_DIR$/target/maven-archiver" />
+      <excludeFolder url="file://$MODULE_DIR$/target/maven-status" />
       <excludeFolder url="file://$MODULE_DIR$/target/surefire" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -103,8 +106,43 @@
     <orderEntry type="library" name="Maven: com.sun.jersey.contribs:jersey-guice:1.9" level="project" />
     <orderEntry type="library" name="Maven: com.google.inject.extensions:guice-servlet:3.0" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty:3.6.2.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.avro:avro:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.avro:avro:1.7.4" level="project" />
     <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" level="project" />
-    <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.0.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.avro:avro-maven-plugin:1.7.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-project:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-profile:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact-manager:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-beta-2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-registry:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-interpolation:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:1.5.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" name="Maven: classworlds:classworlds:1.1-alpha-2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.shared:file-management:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-shared-io:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.avro:avro-compiler:1.7.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.velocity:velocity:1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.avro:avro-ipc:1.7.4" level="project" />
+    <orderEntry type="library" name="Maven: org.mortbay.jetty:servlet-api:2.5-20081211" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.crunch:crunch-core:0.12.0-hadoop2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.avro:avro-mapred:hadoop1:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.avro:trevni-avro:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.avro:trevni-core:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:parquet-avro:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:parquet-column:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:parquet-common:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:parquet-encoding:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:parquet-generator:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:parquet-hadoop:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:parquet-jackson:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:parquet-format:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.16.1-GA" level="project" />
   </component>
 </module>
