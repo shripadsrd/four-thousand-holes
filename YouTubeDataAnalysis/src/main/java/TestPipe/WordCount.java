@@ -20,8 +20,8 @@ public class WordCount extends Configured implements Tool{
     public int run(String[] args) throws Exception {
 
         if (args.length != 3) {
-            System.err.println("Usage: hadoop jar crunch-demo-1.0-SNAPSHOT-job.jar"
-                    + " [generic options] input output");
+            System.err.println("Usage: hadoop jar DatasetAnalysis-1.0-SNAPSHOT.jar"
+                    + " input output");
             System.out.println(args.length + "ARGS LENG");
             System.out.println(args[0]);
             System.out.println(args[1]);
